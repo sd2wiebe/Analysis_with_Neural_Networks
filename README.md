@@ -2,7 +2,7 @@
 
 ## Overview of Analysis
 
-The purpose of this analysis is create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup, using info from a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years.
+The purpose of this analysis is create a deep learning binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup, using info from a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years.
 
 ## Results 
 
@@ -10,7 +10,7 @@ The purpose of this analysis is create a binary classifier that is capable of pr
 
 <li>The target variable for our model is "IS_SUCCESSFUL".</li>
 <li>Feature variables include: status, ask amount, application type, income amount, organization etc.</li>
-<li>We removed variables that were neither targets nor features, such as "EIN" and "NAME".</li>
+<li>We removed variables that were neither targets nor features, such as identifiers "EIN" and "NAME".</li>
 
 ### Compiling, Training, and Evaluating the Model:
 
