@@ -2,7 +2,7 @@
 
 ## Overview of Analysis
 
-The purpose of this analysis is 
+The purpose of this analysis is create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup, using info from a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years.
 
 ## Results 
 
@@ -20,4 +20,14 @@ The purpose of this analysis is
 <li> I experimented with removing features, changing bucket sizes, changing activation functions on hidden layers and adding epochs </li>
 
 ## Summary
+
+My optimized model was able to accurately predict if companies would be successfull if funded by Alphabet Soup about 74% of the time, which isn't quite the target amount (75%). 
+<p align="center"
+
+![alttext](https://github.com/sd2wiebe/Neural_Network_Charity_Analysis/blob/main/accuracy.png)
+
+</p>
+
+I believe Random Forest would serve as a great alternative model to the deep learning model. This is because Random Forest works very similarly to neural network models, and is known to be a good binary classifier.
+'
 
